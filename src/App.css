@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App h1 {
+  position: relative;
+  right: 50px;
+}
+
+.heading  {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.logo {
+  float: left;
+}
+
+.Form input,
+.Form select {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.Form button {
+  background-color: aquamarine;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  padding: 3px 5px;
+}
+
+.Form button:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.Form select:hover {
+  cursor: pointer;
+}
+
+.List {
+  background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm21-polygon-sasi-07_1.jpg?auto=format&bg=F4F4F3&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&mark=rawpixel-watermark.png&markalpha=90&markpad=13&markscale=10&markx=25&q=75&usm=15&vib=3&w=1200&s=402f3f59a854440380fb55deb5c4b572);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: ghostwhite;
+  min-height: 320px;
+  height: auto;
+  width: 80vw;
+  position: relative;
+  left: 10%;
+  padding: 10px;
+}
+
+.List table {
+  width: 100%;
+}
+
+.List th,
+.List td {
+  width: 33.3%;
+}
